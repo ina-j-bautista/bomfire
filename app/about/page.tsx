@@ -5,41 +5,13 @@ import Link from 'next/link'
 import NavBar from '@/components/NavBar'
 
 const TEAM = [
-  {
-    name: 'Sabrina "Ina" Bautista',
-    label: 'Ina',
-    role: 'Team Lead, Product Design Lead, Lead Prototype Developer',
-    initials: 'IB',
-    file: 'ina',
-    portfolio: 'https://yourportfolio.com',
-    cv: '/cv/ina-cv.pdf',
-  },
-  {
-    name: 'Genro Gabriel D. Baldemor',
-    label: 'Gen',
-    role: 'Research & Documentation Lead, Concept Strategist, Software Developer',
-    initials: 'GB',
-    file: 'gen',
-    cv: '/cv/gen-cv.pdf',
-  },
-  {
-    name: 'Christian Jude J. Bermejo',
-    label: 'Jude',
-    role: 'Research & Documentation Specialist, Concept Strategist',
-    initials: 'JB',
-    file: 'jude',
-    cv: '/cv/jude-cv.pdf',
-  },
-  {
-    name: 'Jacqueline E. Imperial',
-    label: 'Jacky',
-    role: 'UI/UX Designer, Research & Documentation Specialist',
-    initials: 'JI',
-    file: 'jacky',
-    cv: '/cv/jacky-cv.pdf',
-  },
+  { name: 'Sabrina "Ina" Bautista',    label: 'Ina',  role: '[Role / Position]', initials: 'IB', file: 'ina'   },
+  { name: 'Genro Gabriel D. Baldemor', label: 'Gen',  role: '[Role / Position]', initials: 'GB', file: 'gen'   },
+  { name: 'Christian Jude J. Bermejo', label: 'Jude', role: '[Role / Position]', initials: 'JB', file: 'jude'  },
+  { name: 'Jacqueline E. Imperial',    label: 'Jacky',role: '[Role / Position]', initials: 'JI', file: 'jacky' },
 ]
 
+// Shows the photo PNG; falls back to initials circle if image is missing
 function TeamPhoto({ file, name, initials }: { file: string; name: string; initials: string }) {
   const [err, setErr] = useState(false)
   return (
@@ -119,92 +91,19 @@ export default function AboutPage() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
             {TEAM.map(m => (
-              <div
-                key={m.label}
-                className="rounded-xl p-4"
-                style={{
-                  background: '#EDD8CC',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  height: '100%',
-                }}
-              >
-                <div style={{ flex: 1, textAlign: 'center' }}>
-                  <TeamPhoto file={m.file} name={m.name} initials={m.initials} />
-
-                  <div
-                    style={{
-                      fontSize: 16,
-                      fontWeight: 900,
-                      color: '#1a1a1a',
-                      lineHeight: 1.2,
-                    }}
-                  >
-                    {m.label}
-                  </div>
-
-                  <div
-                    style={{
-                      fontSize: 11,
-                      color: '#6B7280',
-                      marginTop: 2,
-                      lineHeight: 1.3,
-                    }}
-                  >
-                    {m.name}
-                  </div>
-
-                  <div
-                    style={{
-                      fontSize: 12,
-                      fontWeight: 600,
-                      color: '#C45032',
-                      marginTop: 4,
-                      minHeight: 54,
-                    }}
-                  >
-                    {m.role}
-                  </div>
-                </div>
-
-                <div
-                  style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: 8,
-                    marginTop: 12,
-                  }}
-                >
-                  {'portfolio' in m && (
-                    <a
-                      href={m.portfolio}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-white transition-all hover:opacity-90 active:scale-95"
-                      style={{ background: '#7C3B2B' }}
-                    >
-                      🎨 Portfolio
-                    </a>
-                  )}
-
-                  <a
-                    href={m.cv}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all hover:opacity-90 active:scale-95 no-underline"
-                    style={{
-                      background: '#F8EDE8',
-                      color: '#7C3B2B',
-                    }}
-                  >
-                    📄 View CV
-                  </a>
-                </div>
+              <div key={m.label} className="rounded-xl p-4 text-center" style={{ background: '#EDD8CC' }}>
+                <TeamPhoto file={m.file} name={m.name} initials={m.initials} />
+                <div style={{ fontSize: 16, fontWeight: 900, color: '#1a1a1a', lineHeight: 1.2 }}>{m.label}</div>
+                <div style={{ fontSize: 11, color: '#6B7280', marginTop: 2, lineHeight: 1.3 }}>{m.name}</div>
+                <div style={{ fontSize: 12, fontWeight: 600, color: '#C45032', marginTop: 4 }}>{m.role}</div>
               </div>
             ))}
           </div>
 
-          
+          <p className="text-xs text-gray-400 mt-4 text-center">
+            Photos: place <code>team-ina.png</code>, <code>team-gen.png</code>, <code>team-jude.png</code>,
+            <code>team-jacky.png</code> in <code>/public/images/</code>. Initials show if a file is missing.
+          </p>
         </div>
 
         {/* ── Competition ────────────────────────────────────── */}
@@ -214,8 +113,8 @@ export default function AboutPage() {
           <div className="flex items-start gap-4 p-4 rounded-xl mb-4" style={{ background: '#EDD8CC' }}>
             <div style={{ fontSize: 36 }}>⚡</div>
             <div>
-              <div className="font-black text-gray-900 text-base">3CS</div>
-              <div className="text-sm text-gray-600 mt-1">Create & Conquer 2026</div>
+              <div className="font-black text-gray-900 text-base">Ideas Can Go Critical (ICGC)</div>
+              <div className="text-sm text-gray-600 mt-1">C/C Elimination Round — Hackathon</div>
               <div className="text-xs text-gray-500 mt-2">
                 Theme 1: Eliminating Friction in the Maker's Bill of Materials Journey<br />
                 <em>"How might we seamlessly and automatically translate maker inspiration into a fully resolved,
@@ -229,7 +128,11 @@ export default function AboutPage() {
                style={{ background: '#7C3B2B' }}>
               📄 View Full Project Proposal
             </a>
-            
+            <Link href="/catalog"
+               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold transition-all hover:opacity-90 active:scale-95 no-underline"
+               style={{ background: '#EDD8CC', color: '#7C3B2B' }}>
+              🗂 Browse Catalog
+            </Link>
           </div>
         </div>
 
