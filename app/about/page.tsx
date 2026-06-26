@@ -5,10 +5,10 @@ import Link from 'next/link'
 import NavBar from '@/components/NavBar'
 
 const TEAM = [
-  { name: 'Sabrina "Ina" Bautista',    label: 'Ina',  role: '[Role / Position]', initials: 'IB', file: 'ina'   },
-  { name: 'Genro Gabriel D. Baldemor', label: 'Gen',  role: '[Role / Position]', initials: 'GB', file: 'gen'   },
-  { name: 'Christian Jude J. Bermejo', label: 'Jude', role: '[Role / Position]', initials: 'JB', file: 'jude'  },
-  { name: 'Jacqueline E. Imperial',    label: 'Jacky',role: '[Role / Position]', initials: 'JI', file: 'jacky' },
+  { name: 'Sabrina "Ina" Bautista',    label: 'Ina',  role: 'Project Lead, Lead Developer & Product DesignerProject Lead • Lead Developer • Product Designer', initials: 'IB', file: 'ina',   cv: '#', portfolio: '#' },
+  { name: 'Genro Gabriel D. Baldemor', label: 'Gen',  role: 'Learning Experience Designer • Content Researcher', initials: 'GB', file: 'gen',   cv: '#', portfolio: null },
+  { name: 'Christian Jude J. Bermejo', label: 'Jude', role: 'Learning Experience Designer • Content Researcher', initials: 'JB', file: 'jude',  cv: '#', portfolio: null },
+  { name: 'Jacqueline E. Imperial',    label: 'Jacky',role: 'UI/UX Designer • UX Researcher', initials: 'JI', file: 'jacky', cv: '#', portfolio: null },
 ]
 
 // Shows the photo PNG; falls back to initials circle if image is missing
@@ -91,19 +91,40 @@ export default function AboutPage() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
             {TEAM.map(m => (
-              <div key={m.label} className="rounded-xl p-4 text-center" style={{ background: '#EDD8CC' }}>
+              <div key={m.label} className="rounded-xl p-4 text-center"
+                   style={{ background: '#EDD8CC', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <TeamPhoto file={m.file} name={m.name} initials={m.initials} />
                 <div style={{ fontSize: 16, fontWeight: 900, color: '#1a1a1a', lineHeight: 1.2 }}>{m.label}</div>
                 <div style={{ fontSize: 11, color: '#6B7280', marginTop: 2, lineHeight: 1.3 }}>{m.name}</div>
-                <div style={{ fontSize: 12, fontWeight: 600, color: '#C45032', marginTop: 4 }}>{m.role}</div>
+                <div style={{ fontSize: 12, fontWeight: 600, color: '#C45032', marginTop: 4, marginBottom: 12 }}>{m.role}</div>
+
+                {/* Buttons — pushed to bottom so all cards align */}
+                <div style={{ marginTop: 'auto', width: '100%', display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  <a href={m.cv} target="_blank" rel="noopener noreferrer"
+                     style={{
+                       display: 'block', width: '100%', padding: '6px 0',
+                       borderRadius: 8, background: '#7C3B2B', color: 'white',
+                       fontSize: 12, fontWeight: 700, textAlign: 'center',
+                       textDecoration: 'none',
+                     }}>
+                    📄 View CV
+                  </a>
+                  {m.portfolio && (
+                    <a href={m.portfolio} target="_blank" rel="noopener noreferrer"
+                       style={{
+                         display: 'block', width: '100%', padding: '6px 0',
+                         borderRadius: 8, background: '#C45032', color: 'white',
+                         fontSize: 12, fontWeight: 700, textAlign: 'center',
+                         textDecoration: 'none',
+                       }}>
+                      🎨 Portfolio
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>
 
-          <p className="text-xs text-gray-400 mt-4 text-center">
-            Photos: place <code>team-ina.png</code>, <code>team-gen.png</code>, <code>team-jude.png</code>,
-            <code>team-jacky.png</code> in <code>/public/images/</code>. Initials show if a file is missing.
-          </p>
         </div>
 
         {/* ── Competition ────────────────────────────────────── */}
