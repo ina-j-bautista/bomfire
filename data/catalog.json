@@ -1,184 +1,12 @@
 [
   {
-    "sku": "ARD-UNO-R3",
-    "name": "Arduino Uno R3",
-    "aliases": ["arduino uno", "uno r3", "atmega328 uno"],
-    "category": "Microcontroller",
-    "price": 250,
-    "stock": true,
-    "qty_available": 30,
-    "unit": "pcs",
-    "specs": "ATmega328P, 16MHz, 5V, 32KB flash, 14 digital I/O"
-  },
-  {
-    "sku": "ARD-NANO-V3",
-    "name": "Arduino Nano",
-    "aliases": ["arduino nano", "nano v3", "nano v3.0", "atmega328 nano", "nano every"],
-    "category": "Microcontroller",
-    "price": 185,
-    "stock": true,
-    "qty_available": 25,
-    "unit": "pcs",
-    "specs": "ATmega328P, 16MHz, 5V, 32KB flash, breadboard-friendly"
-  },
-  {
-    "sku": "ARD-MEGA-2560",
-    "name": "Arduino Mega 2560",
-    "aliases": ["arduino mega", "mega 2560", "atmega2560"],
-    "category": "Microcontroller",
-    "price": 450,
-    "stock": true,
-    "qty_available": 12,
-    "unit": "pcs",
-    "specs": "ATmega2560, 16MHz, 5V, 256KB flash, 54 digital I/O"
-  },
-  {
-    "sku": "ESP32-DEVKIT-V1",
-    "name": "ESP32 Dev Board",
-    "aliases": ["esp32", "esp-32", "esp32 devkit", "esp-wroom-32", "esp32 development board"],
-    "category": "Microcontroller",
-    "price": 195,
-    "stock": true,
-    "qty_available": 40,
-    "unit": "pcs",
-    "specs": "Dual-core 240MHz, Wi-Fi + BT, 4MB flash, 3.3V"
-  },
-  {
-    "sku": "ESP8266-NODEMCU",
-    "name": "ESP8266 NodeMCU",
-    "aliases": ["esp8266", "nodemcu", "esp-12e", "wemos d1 mini", "nodemcu v2", "nodemcu v3"],
-    "category": "Microcontroller",
-    "price": 120,
-    "stock": true,
-    "qty_available": 35,
-    "unit": "pcs",
-    "specs": "80/160MHz, Wi-Fi, 4MB flash, 3.3V, 11 digital I/O"
-  },
-  {
-    "sku": "RPi-PICO",
-    "name": "Raspberry Pi Pico",
-    "aliases": ["pico", "rp2040", "raspberry pi pico", "pi pico"],
-    "category": "Microcontroller",
-    "price": 220,
-    "stock": true,
-    "qty_available": 15,
-    "unit": "pcs",
-    "specs": "RP2040, dual-core 133MHz, 3.3V, 26 GPIO, 2MB flash"
-  },
-  {
-    "sku": "DHT11-MOD",
-    "name": "DHT11 Temperature & Humidity Sensor",
-    "aliases": ["dht11", "dht 11", "temperature sensor", "humidity sensor", "temp sensor"],
-    "category": "Sensor",
-    "price": 45,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "3.3-5V, ±2°C accuracy, ±5% RH, digital output"
-  },
-  {
-    "sku": "DHT22-MOD",
-    "name": "DHT22 Temperature & Humidity Sensor",
-    "aliases": ["dht22", "dht 22", "am2302", "high accuracy temperature sensor"],
-    "category": "Sensor",
-    "price": 95,
-    "stock": true,
-    "qty_available": 20,
-    "unit": "pcs",
-    "specs": "3.3-5V, ±0.5°C accuracy, ±2% RH, digital output"
-  },
-  {
-    "sku": "DS18B20-WP",
-    "name": "DS18B20 Waterproof Temperature Sensor",
-    "aliases": ["ds18b20", "one wire sensor", "waterproof temp sensor", "ds18"],
-    "category": "Sensor",
-    "price": 75,
-    "stock": true,
-    "qty_available": 30,
-    "unit": "pcs",
-    "specs": "3.0-5.5V, ±0.5°C, 1-Wire protocol, -55 to +125°C"
-  },
-  {
-    "sku": "HC-SR04",
-    "name": "HC-SR04 Ultrasonic Distance Sensor",
-    "aliases": ["hcsr04", "ultrasonic sensor", "distance sensor", "sonar sensor", "hc sr04"],
-    "category": "Sensor",
-    "price": 55,
-    "stock": true,
-    "qty_available": 45,
-    "unit": "pcs",
-    "specs": "5V, 2cm-400cm range, ±3mm accuracy, 40kHz"
-  },
-  {
-    "sku": "PIR-HC-SR501",
-    "name": "PIR Motion Sensor HC-SR501",
-    "aliases": ["pir sensor", "motion sensor", "hc-sr501", "passive infrared", "pir module"],
-    "category": "Sensor",
-    "price": 65,
-    "stock": true,
-    "qty_available": 28,
-    "unit": "pcs",
-    "specs": "5-12V, adjustable sensitivity & delay, 120° angle"
-  },
-  {
-    "sku": "MPU6050-MOD",
-    "name": "MPU-6050 IMU Module",
-    "aliases": ["mpu6050", "mpu 6050", "gyroscope", "accelerometer", "gyro sensor", "imu"],
-    "category": "Sensor",
-    "price": 85,
-    "stock": true,
-    "qty_available": 22,
-    "unit": "pcs",
-    "specs": "3.3-5V, 3-axis gyro + 3-axis accelerometer, I2C"
-  },
-  {
-    "sku": "SOIL-MOD",
-    "name": "Soil Moisture Sensor",
-    "aliases": ["soil sensor", "moisture sensor", "soil moisture", "plant sensor"],
-    "category": "Sensor",
-    "price": 35,
-    "stock": true,
-    "qty_available": 40,
-    "unit": "pcs",
-    "specs": "3.3-5V, analog + digital output, adjustable threshold"
-  },
-  {
-    "sku": "LDR-MOD",
-    "name": "LDR Light Sensor Module",
-    "aliases": ["ldr", "light sensor", "photoresistor", "light dependent resistor", "ldr module"],
-    "category": "Sensor",
-    "price": 25,
-    "stock": true,
-    "qty_available": 60,
-    "unit": "pcs",
-    "specs": "3.3-5V, analog + digital output, adjustable sensitivity"
-  },
-  {
-    "sku": "MQ2-GAS",
-    "name": "MQ-2 Gas Sensor",
-    "aliases": ["mq2", "mq-2", "gas sensor", "smoke sensor", "lpg sensor"],
-    "category": "Sensor",
-    "price": 75,
-    "stock": true,
-    "qty_available": 18,
-    "unit": "pcs",
-    "specs": "5V, LPG/smoke/hydrogen/alcohol, analog + digital out"
-  },
-  {
-    "sku": "OLED-096-I2C",
-    "name": "0.96\" OLED Display I2C",
-    "aliases": ["0.96 oled", "oled display", "ssd1306", "0.96 inch oled", "small oled", "oled screen"],
-    "category": "Display",
-    "price": 89,
-    "stock": false,
-    "qty_available": 0,
-    "unit": "pcs",
-    "specs": "SSD1306, 128x64px, I2C, 3.3-5V, white pixels"
-  },
-  {
     "sku": "OLED-091-I2C",
     "name": "0.91\" OLED Display I2C",
-    "aliases": ["0.91 oled", "small oled i2c", "tiny oled"],
+    "aliases": [
+      "0.91 oled",
+      "small oled i2c",
+      "tiny oled"
+    ],
     "category": "Display",
     "price": 65,
     "stock": true,
@@ -187,20 +15,151 @@
     "specs": "SSD1306, 128x32px, I2C, 3.3-5V, white pixels"
   },
   {
+    "sku": "OLED-096-I2C",
+    "name": "0.96\" OLED Display I2C",
+    "aliases": [
+      "0.96 oled",
+      "oled display",
+      "ssd1306",
+      "0.96 inch oled",
+      "small oled",
+      "oled screen"
+    ],
+    "category": "Display",
+    "price": 89,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "SSD1306, 128x64px, I2C, 3.3-5V, white pixels"
+  },
+  {
     "sku": "OLED-131-I2C",
     "name": "1.3\" OLED Display I2C",
-    "aliases": ["1.3 oled", "1.3 inch oled", "larger oled", "sh1106"],
+    "aliases": [
+      "1.3 oled",
+      "1.3 inch oled",
+      "larger oled",
+      "sh1106"
+    ],
     "category": "Display",
     "price": 120,
     "stock": true,
-    "qty_available": 12,
+    "qty_available": 3,
     "unit": "pcs",
     "specs": "SH1106, 128x64px, I2C, 3.3-5V, white pixels"
   },
   {
+    "sku": "CAP-100N-16",
+    "name": "100nF Ceramic Capacitor (pack of 10)",
+    "aliases": [
+      "100nf cap",
+      "0.1uf capacitor",
+      "100nf",
+      "100 nanofarad",
+      "ceramic cap",
+      "bypass capacitor",
+      "decoupling cap"
+    ],
+    "category": "Passive",
+    "price": 3,
+    "stock": true,
+    "qty_available": 300,
+    "unit": "pcs",
+    "specs": "100nF (0.1\u00b5F), 50V, ceramic, C0G/NP0, radial"
+  },
+  {
+    "sku": "CAP-100U-16V",
+    "name": "100\u00b5F Electrolytic Capacitor",
+    "aliases": [
+      "100uf",
+      "100 microfarad",
+      "100\u00b5f cap"
+    ],
+    "category": "Passive",
+    "price": 5,
+    "stock": true,
+    "qty_available": 200,
+    "unit": "pcs",
+    "specs": "100\u00b5F, 16V, electrolytic, radial"
+  },
+  {
+    "sku": "POT-10K",
+    "name": "10k\u03a9 Potentiometer",
+    "aliases": [
+      "potentiometer",
+      "pot",
+      "variable resistor",
+      "rheostat",
+      "10k pot"
+    ],
+    "category": "Input",
+    "price": 18,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "10k\u03a9, single-turn, rotary, PCB mount, linear"
+  },
+  {
+    "sku": "RES-10K-QW",
+    "name": "10k\u03a9 Resistor (pack of 20)",
+    "aliases": [
+      "10k resistor",
+      "10kohm",
+      "10 kilohm",
+      "10k\u03a9",
+      "10k ohm",
+      "10k"
+    ],
+    "category": "Passive",
+    "price": 3,
+    "stock": true,
+    "qty_available": 500,
+    "unit": "pcs",
+    "specs": "10k\u03a9, 5% tolerance, 1/4W, carbon film, axial"
+  },
+  {
+    "sku": "CAP-10U-25V",
+    "name": "10\u00b5F Electrolytic Capacitor (pack of 10)",
+    "aliases": [
+      "10uf capacitor",
+      "10 microfarad",
+      "electrolytic cap",
+      "10\u00b5f"
+    ],
+    "category": "Passive",
+    "price": 5,
+    "stock": true,
+    "qty_available": 200,
+    "unit": "pcs",
+    "specs": "10\u00b5F, 25V, electrolytic, radial, 105\u00b0C"
+  },
+  {
+    "sku": "CRYSTAL-16MHZ",
+    "name": "16MHz Crystal Oscillator",
+    "aliases": [
+      "crystal",
+      "crystal oscillator",
+      "16mhz crystal",
+      "quartz crystal"
+    ],
+    "category": "Passive",
+    "price": 8,
+    "stock": true,
+    "qty_available": 80,
+    "unit": "pcs",
+    "specs": "16MHz, HC-49S package, 20ppm, 2-pin"
+  },
+  {
     "sku": "LCD-1602-I2C",
     "name": "16x2 LCD with I2C Backpack",
-    "aliases": ["16x2 lcd", "lcd display", "lcd 1602", "lcd i2c", "16x2 display", "character lcd"],
+    "aliases": [
+      "16x2 lcd",
+      "lcd display",
+      "lcd 1602",
+      "lcd i2c",
+      "16x2 display",
+      "character lcd"
+    ],
     "category": "Display",
     "price": 75,
     "stock": true,
@@ -209,53 +168,197 @@
     "specs": "HD44780, 16x2 chars, I2C backpack (PCF8574), 5V"
   },
   {
-    "sku": "NEOPIXEL-8",
-    "name": "NeoPixel LED Strip (8 LEDs)",
-    "aliases": ["neopixel", "ws2812b", "rgb led strip", "addressable led", "ws2812"],
-    "category": "Display",
-    "price": 95,
+    "sku": "18650-BAT-HOLDER",
+    "name": "18650 Battery Holder (2-cell)",
+    "aliases": [
+      "battery holder",
+      "18650 holder",
+      "li-ion holder",
+      "battery case"
+    ],
+    "category": "Power",
+    "price": 35,
     "stock": true,
-    "qty_available": 25,
+    "qty_available": 30,
     "unit": "pcs",
-    "specs": "WS2812B, 8 RGB LEDs, 5V, individually addressable"
+    "specs": "2x 18650, series connection (7.4V), JST connector, on/off switch"
   },
   {
-    "sku": "L298N-MOD",
-    "name": "L298N Motor Driver Module",
-    "aliases": ["l298n", "motor driver", "dual h-bridge", "dc motor driver", "l298"],
-    "category": "Driver",
-    "price": 85,
+    "sku": "DIODE-1N4007",
+    "name": "1N4007 Rectifier Diode (pack of 10)",
+    "aliases": [
+      "1n4007",
+      "diode",
+      "rectifier diode",
+      "flyback diode"
+    ],
+    "category": "Passive",
+    "price": 5,
+    "stock": true,
+    "qty_available": 500,
+    "unit": "pcs",
+    "specs": "1000V PIV, 1A, DO-41 package"
+  },
+  {
+    "sku": "RES-1K-QW",
+    "name": "1k\u03a9 Resistor (pack of 20)",
+    "aliases": [
+      "1k resistor",
+      "1kohm",
+      "1 kilohm",
+      "1k\u03a9",
+      "1k"
+    ],
+    "category": "Passive",
+    "price": 3,
+    "stock": true,
+    "qty_available": 500,
+    "unit": "pcs",
+    "specs": "1k\u03a9, 5% tolerance, 1/4W, carbon film, axial"
+  },
+  {
+    "sku": "RES-220-QW",
+    "name": "220\u03a9 Resistor (pack of 20)",
+    "aliases": [
+      "220 resistor",
+      "220ohm",
+      "220r",
+      "led resistor"
+    ],
+    "category": "Passive",
+    "price": 3,
+    "stock": true,
+    "qty_available": 500,
+    "unit": "pcs",
+    "specs": "220\u03a9, 5% tolerance, 1/4W, carbon film, axial"
+  },
+  {
+    "sku": "28BYJ48-STEPPER",
+    "name": "28BYJ-48 Stepper Motor + ULN2003 Driver",
+    "aliases": [
+      "28byj48",
+      "stepper motor kit",
+      "28byj-48",
+      "5v stepper motor"
+    ],
+    "category": "Actuator",
+    "price": 95,
+    "stock": true,
+    "qty_available": 15,
+    "unit": "pcs",
+    "specs": "5V, 4-phase, 64:1 gear ratio, 5.625\u00b0/step, includes ULN2003 board"
+  },
+  {
+    "sku": "2N2222A-TO18",
+    "name": "2N2222A NPN Transistor",
+    "aliases": [
+      "2n2222",
+      "2n2222a",
+      "npn transistor",
+      "switching transistor",
+      "bc547"
+    ],
+    "category": "Transistor",
+    "price": 5,
+    "stock": true,
+    "qty_available": 200,
+    "unit": "pcs",
+    "specs": "NPN, 40V Vce, 600mA Ic, TO-18/TO-92"
+  },
+  {
+    "sku": "LEVEL-SHIFT-4CH",
+    "name": "4-Channel I2C Level Shifter",
+    "aliases": [
+      "level shifter",
+      "logic level converter",
+      "i2c level shifter",
+      "3.3v 5v converter"
+    ],
+    "category": "Module",
+    "price": 45,
+    "stock": true,
+    "qty_available": 20,
+    "unit": "pcs",
+    "specs": "4-ch bidirectional, 3.3V\u21945V, I2C/SPI/UART compatible"
+  },
+  {
+    "sku": "7SEG-TM1637",
+    "name": "4-Digit 7-Segment Display (TM1637)",
+    "aliases": [
+      "7 segment",
+      "7segment",
+      "tm1637",
+      "digit display",
+      "7 seg display",
+      "clock display"
+    ],
+    "category": "Display",
+    "price": 65,
     "stock": true,
     "qty_available": 18,
     "unit": "pcs",
-    "specs": "5-35V, 2A per channel, dual DC or 1 stepper motor"
+    "specs": "TM1637, 4-digit, 2-wire I2C-like, 3.3-5V, 0.56\""
   },
   {
-    "sku": "L293D-IC",
-    "name": "L293D Motor Driver IC",
-    "aliases": ["l293d", "l293", "motor driver ic", "h-bridge ic"],
-    "category": "Driver",
-    "price": 35,
+    "sku": "HEADER-MALE-40",
+    "name": "40-Pin Male Header (2.54mm)",
+    "aliases": [
+      "pin header",
+      "male header",
+      "dupont header",
+      "2.54mm header"
+    ],
+    "category": "Connector",
+    "price": 12,
     "stock": true,
-    "qty_available": 40,
+    "qty_available": 100,
     "unit": "pcs",
-    "specs": "4.5-36V, 600mA per channel, quad half-H-bridge, DIP-16"
+    "specs": "40 pins, 2.54mm pitch, single row, 11mm total height"
   },
   {
-    "sku": "A4988-MOD",
-    "name": "A4988 Stepper Motor Driver",
-    "aliases": ["a4988", "stepper driver", "stepper motor driver"],
-    "category": "Driver",
-    "price": 95,
+    "sku": "OPTO-4N35",
+    "name": "4N35 Optocoupler (pack of 5)",
+    "aliases": [
+      "optocoupler",
+      "4n35",
+      "opto isolator",
+      "optical isolator"
+    ],
+    "category": "IC",
+    "price": 25,
     "stock": true,
-    "qty_available": 14,
+    "qty_available": 50,
     "unit": "pcs",
-    "specs": "8-35V, up to 2A, microstepping 1/16, dir+step input"
+    "specs": "4N35, 70V, 10mA, DIP-6, transistor output, CTR 100%"
+  },
+  {
+    "sku": "KEYPAD-4X4",
+    "name": "4x4 Matrix Membrane Keypad",
+    "aliases": [
+      "keypad",
+      "4x4 keypad",
+      "matrix keypad",
+      "membrane keypad",
+      "16 key pad"
+    ],
+    "category": "Input",
+    "price": 55,
+    "stock": true,
+    "qty_available": 22,
+    "unit": "pcs",
+    "specs": "4x4 membrane, 16 keys (0-9, A-D, *, #), 8-wire ribbon"
   },
   {
     "sku": "SRD-5V-RELAY",
     "name": "5V Relay Module (1 Channel)",
-    "aliases": ["relay", "relay module", "5v relay", "single relay", "1 channel relay", "blue relay"],
+    "aliases": [
+      "relay",
+      "relay module",
+      "5v relay",
+      "single relay",
+      "1 channel relay",
+      "blue relay"
+    ],
     "category": "Control",
     "price": 45,
     "stock": true,
@@ -266,183 +369,26 @@
   {
     "sku": "SRD-5V-RELAY-4CH",
     "name": "5V Relay Module (4 Channel)",
-    "aliases": ["4 channel relay", "4ch relay", "relay board", "4 relay module"],
+    "aliases": [
+      "4 channel relay",
+      "4ch relay",
+      "relay board",
+      "4 relay module"
+    ],
     "category": "Control",
     "price": 120,
     "stock": true,
-    "qty_available": 15,
+    "qty_available": 2,
     "unit": "pcs",
     "specs": "5V, 4x 10A/250VAC relays, optocoupler isolated"
   },
   {
-    "sku": "NE555-DIP",
-    "name": "NE555 Timer IC",
-    "aliases": ["ne555", "555 timer", "555", "timer ic", "555p"],
-    "category": "IC",
-    "price": 12,
-    "stock": true,
-    "qty_available": 100,
-    "unit": "pcs",
-    "specs": "4.5-15V, DIP-8, astable/monostable/bistable modes"
-  },
-  {
-    "sku": "LM7805-TO220",
-    "name": "LM7805 5V Voltage Regulator",
-    "aliases": ["lm7805", "7805", "5v regulator", "voltage regulator 5v", "78l05"],
-    "category": "Power",
-    "price": 18,
-    "stock": true,
-    "qty_available": 80,
-    "unit": "pcs",
-    "specs": "7-35V in, 5V/1A out, TO-220 package"
-  },
-  {
-    "sku": "LM317-TO220",
-    "name": "LM317 Adjustable Voltage Regulator",
-    "aliases": ["lm317", "317", "adjustable regulator", "variable regulator"],
-    "category": "Power",
-    "price": 22,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "3-40V in, 1.25-37V/1.5A out adjustable, TO-220"
-  },
-  {
-    "sku": "TP4056-MOD",
-    "name": "TP4056 Li-Ion Battery Charger Module",
-    "aliases": ["tp4056", "battery charger", "lipo charger", "lithium charger", "18650 charger"],
-    "category": "Power",
-    "price": 35,
-    "stock": true,
-    "qty_available": 30,
-    "unit": "pcs",
-    "specs": "Micro-USB, 4.2V 1A, CC/CV, overvoltage protection"
-  },
-  {
-    "sku": "2N2222A-TO18",
-    "name": "2N2222A NPN Transistor",
-    "aliases": ["2n2222", "2n2222a", "npn transistor", "switching transistor", "bc547"],
-    "category": "Transistor",
-    "price": 5,
-    "stock": true,
-    "qty_available": 200,
-    "unit": "pcs",
-    "specs": "NPN, 40V Vce, 600mA Ic, TO-18/TO-92"
-  },
-  {
-    "sku": "IRF540N-TO220",
-    "name": "IRF540N N-Channel MOSFET",
-    "aliases": ["irf540n", "irf540", "n-channel mosfet", "power mosfet", "mosfet"],
-    "category": "Transistor",
-    "price": 28,
-    "stock": true,
-    "qty_available": 45,
-    "unit": "pcs",
-    "specs": "N-Ch, 100V, 33A, 44mΩ Rds, TO-220"
-  },
-  {
-    "sku": "RES-10K-QW",
-    "name": "10kΩ Resistor (pack of 20)",
-    "aliases": ["10k resistor", "10kohm", "10 kilohm", "10kΩ", "10k ohm", "10k"],
-    "category": "Passive",
-    "price": 3,
-    "stock": true,
-    "qty_available": 500,
-    "unit": "pcs",
-    "specs": "10kΩ, 5% tolerance, 1/4W, carbon film, axial"
-  },
-  {
-    "sku": "RES-220-QW",
-    "name": "220Ω Resistor (pack of 20)",
-    "aliases": ["220 resistor", "220ohm", "220r", "led resistor"],
-    "category": "Passive",
-    "price": 3,
-    "stock": true,
-    "qty_available": 500,
-    "unit": "pcs",
-    "specs": "220Ω, 5% tolerance, 1/4W, carbon film, axial"
-  },
-  {
-    "sku": "RES-1K-QW",
-    "name": "1kΩ Resistor (pack of 20)",
-    "aliases": ["1k resistor", "1kohm", "1 kilohm", "1kΩ", "1k"],
-    "category": "Passive",
-    "price": 3,
-    "stock": true,
-    "qty_available": 500,
-    "unit": "pcs",
-    "specs": "1kΩ, 5% tolerance, 1/4W, carbon film, axial"
-  },
-  {
-    "sku": "RES-PACK-ASST",
-    "name": "Resistor Pack (600 pcs, 30 values)",
-    "aliases": ["resistor kit", "resistor assortment", "mixed resistors", "resistor set", "resistor pack"],
-    "category": "Passive",
-    "price": 120,
-    "stock": true,
-    "qty_available": 10,
-    "unit": "pcs",
-    "specs": "600pcs, 10Ω to 1MΩ, 30 values, 1/4W, 5% carbon film"
-  },
-  {
-    "sku": "CAP-100N-16",
-    "name": "100nF Ceramic Capacitor (pack of 10)",
-    "aliases": ["100nf cap", "0.1uf capacitor", "100nf", "100 nanofarad", "ceramic cap", "bypass capacitor", "decoupling cap"],
-    "category": "Passive",
-    "price": 3,
-    "stock": true,
-    "qty_available": 300,
-    "unit": "pcs",
-    "specs": "100nF (0.1µF), 50V, ceramic, C0G/NP0, radial"
-  },
-  {
-    "sku": "CAP-10U-25V",
-    "name": "10µF Electrolytic Capacitor (pack of 10)",
-    "aliases": ["10uf capacitor", "10 microfarad", "electrolytic cap", "10µf"],
-    "category": "Passive",
-    "price": 5,
-    "stock": true,
-    "qty_available": 200,
-    "unit": "pcs",
-    "specs": "10µF, 25V, electrolytic, radial, 105°C"
-  },
-  {
-    "sku": "CAP-100U-16V",
-    "name": "100µF Electrolytic Capacitor",
-    "aliases": ["100uf", "100 microfarad", "100µf cap"],
-    "category": "Passive",
-    "price": 5,
-    "stock": true,
-    "qty_available": 200,
-    "unit": "pcs",
-    "specs": "100µF, 16V, electrolytic, radial"
-  },
-  {
-    "sku": "CAP-PACK-ASST",
-    "name": "Capacitor Kit (540 pcs)",
-    "aliases": ["capacitor kit", "capacitor assortment", "mixed caps", "capacitor pack"],
-    "category": "Passive",
-    "price": 145,
-    "stock": true,
-    "qty_available": 8,
-    "unit": "pcs",
-    "specs": "540pcs ceramic + electrolytic, 10pF-1000µF"
-  },
-  {
-    "sku": "LED-RED-5MM",
-    "name": "5mm Red LED (pack of 10)",
-    "aliases": ["red led", "led red", "5mm led", "indicator led"],
-    "category": "LED",
-    "price": 8,
-    "stock": true,
-    "qty_available": 400,
-    "unit": "pcs",
-    "specs": "5mm, red, 2.0V forward voltage, 20mA"
-  },
-  {
     "sku": "LED-BLUE-5MM",
     "name": "5mm Blue LED (pack of 10)",
-    "aliases": ["blue led", "led blue"],
+    "aliases": [
+      "blue led",
+      "led blue"
+    ],
     "category": "LED",
     "price": 10,
     "stock": true,
@@ -451,9 +397,29 @@
     "specs": "5mm, blue, 3.2V forward voltage, 20mA"
   },
   {
+    "sku": "LED-GREEN-5MM",
+    "name": "5mm Green LED (pack of 10)",
+    "aliases": [
+      "green led",
+      "led green"
+    ],
+    "category": "LED",
+    "price": 8,
+    "stock": true,
+    "qty_available": 350,
+    "unit": "pcs",
+    "specs": "5mm, green, 2.1V forward voltage, 20mA, 30mcd"
+  },
+  {
     "sku": "LED-ASST-5MM",
     "name": "5mm LED Assortment (100 pcs, 5 colors)",
-    "aliases": ["led kit", "led pack", "led assortment", "mixed leds", "led set"],
+    "aliases": [
+      "led kit",
+      "led pack",
+      "led assortment",
+      "mixed leds",
+      "led set"
+    ],
     "category": "LED",
     "price": 55,
     "stock": true,
@@ -462,9 +428,45 @@
     "specs": "100pcs: red/green/blue/yellow/white, 5mm, 20mA"
   },
   {
+    "sku": "LED-RED-5MM",
+    "name": "5mm Red LED (pack of 10)",
+    "aliases": [
+      "red led",
+      "led red",
+      "5mm led",
+      "indicator led"
+    ],
+    "category": "LED",
+    "price": 8,
+    "stock": true,
+    "qty_available": 400,
+    "unit": "pcs",
+    "specs": "5mm, red, 2.0V forward voltage, 20mA"
+  },
+  {
+    "sku": "LED-YELLOW-5MM",
+    "name": "5mm Yellow LED (pack of 10)",
+    "aliases": [
+      "yellow led",
+      "led yellow",
+      "amber led"
+    ],
+    "category": "LED",
+    "price": 8,
+    "stock": true,
+    "qty_available": 280,
+    "unit": "pcs",
+    "specs": "5mm, yellow/amber, 2.1V forward voltage, 20mA"
+  },
+  {
     "sku": "BB-830-FULL",
     "name": "830-Point Breadboard",
-    "aliases": ["breadboard", "solderless breadboard", "full-size breadboard", "large breadboard"],
+    "aliases": [
+      "breadboard",
+      "solderless breadboard",
+      "full-size breadboard",
+      "large breadboard"
+    ],
     "category": "Prototyping",
     "price": 85,
     "stock": true,
@@ -473,229 +475,15 @@
     "specs": "830 tie-points, full-size, dual power rails"
   },
   {
-    "sku": "BB-MINI-170",
-    "name": "Mini Breadboard (170 tie-points)",
-    "aliases": ["mini breadboard", "small breadboard", "half breadboard", "170 breadboard"],
-    "category": "Prototyping",
-    "price": 55,
-    "stock": true,
-    "qty_available": 30,
-    "unit": "pcs",
-    "specs": "170 tie-points, adhesive backing, mini size"
-  },
-  {
-    "sku": "JW-MM-20",
-    "name": "Jumper Wires M-M 20pcs (20cm)",
-    "aliases": ["jumper wires", "dupont wire", "male to male jumper", "jumper cables", "wire set", "jumper wire set"],
-    "category": "Prototyping",
-    "price": 35,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "20 pcs, male-to-male, 20cm, 28AWG, 40 colors"
-  },
-  {
-    "sku": "JW-MF-20",
-    "name": "Jumper Wires M-F 20pcs (20cm)",
-    "aliases": ["male to female jumper", "mf jumper", "dupont mf"],
-    "category": "Prototyping",
-    "price": 35,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "20 pcs, male-to-female, 20cm, 28AWG"
-  },
-  {
-    "sku": "JW-FF-20",
-    "name": "Jumper Wires F-F 20pcs (20cm)",
-    "aliases": ["female to female jumper", "ff jumper"],
-    "category": "Prototyping",
-    "price": 35,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "20 pcs, female-to-female, 20cm, 28AWG"
-  },
-  {
-    "sku": "USB-MINI-B30",
-    "name": "USB-A to Mini-B Cable (30cm)",
-    "aliases": ["usb mini b", "usb mini cable", "arduino cable", "mini usb cable", "mini-b cable"],
-    "category": "Cable",
-    "price": 65,
-    "stock": true,
-    "qty_available": 25,
-    "unit": "pcs",
-    "specs": "USB 2.0, Type-A to Mini-B, 30cm, data + charge"
-  },
-  {
-    "sku": "USB-MICRO-50",
-    "name": "USB-A to Micro-B Cable (50cm)",
-    "aliases": ["micro usb cable", "micro-b cable", "micro usb", "android cable"],
-    "category": "Cable",
-    "price": 65,
-    "stock": true,
-    "qty_available": 30,
-    "unit": "pcs",
-    "specs": "USB 2.0, Type-A to Micro-B, 50cm, data + charge"
-  },
-  {
-    "sku": "HC-06-BT",
-    "name": "HC-06 Bluetooth Module",
-    "aliases": ["hc06", "hc-06", "bluetooth module", "bt module", "bluetooth serial"],
-    "category": "Communication",
-    "price": 145,
-    "stock": true,
-    "qty_available": 12,
-    "unit": "pcs",
-    "specs": "Bluetooth 2.0, slave mode only, UART, 3.3V-5V, 10m"
-  },
-  {
-    "sku": "NRF24-MOD",
-    "name": "NRF24L01+ 2.4GHz RF Module",
-    "aliases": ["nrf24l01", "nrf24", "2.4ghz module", "wireless module", "rf module"],
-    "category": "Communication",
-    "price": 85,
-    "stock": true,
-    "qty_available": 20,
-    "unit": "pcs",
-    "specs": "2.4GHz, SPI, 3.3V, 250kbps-2Mbps, 100m range"
-  },
-  {
-    "sku": "SG90-SERVO",
-    "name": "SG90 Micro Servo",
-    "aliases": ["sg90", "servo motor", "micro servo", "servo", "9g servo"],
-    "category": "Actuator",
-    "price": 75,
-    "stock": true,
-    "qty_available": 25,
-    "unit": "pcs",
-    "specs": "4.8-6V, 1.8kg·cm torque, 180°, 9g weight"
-  },
-  {
-    "sku": "DC-MOTOR-3V",
-    "name": "DC Motor 3-6V (Hobby)",
-    "aliases": ["dc motor", "hobby motor", "small motor", "electric motor"],
-    "category": "Actuator",
-    "price": 35,
-    "stock": true,
-    "qty_available": 40,
-    "unit": "pcs",
-    "specs": "3-6V, 150-200 RPM at 3V, 130 size"
-  },
-  {
-    "sku": "BUZZER-5V",
-    "name": "Active Buzzer 5V",
-    "aliases": ["buzzer", "active buzzer", "alarm buzzer", "piezo buzzer"],
-    "category": "Output",
-    "price": 15,
-    "stock": true,
-    "qty_available": 60,
-    "unit": "pcs",
-    "specs": "5V, 2400Hz, active (oscillator built-in), 12mm"
-  },
-  {
-    "sku": "PUSH-BTN-6MM",
-    "name": "Push Button 6mm (pack of 10)",
-    "aliases": ["push button", "tactile button", "tact switch", "momentary button", "pushbutton"],
-    "category": "Input",
-    "price": 10,
-    "stock": true,
-    "qty_available": 200,
-    "unit": "pcs",
-    "specs": "6x6mm, 4-pin, 12V/50mA, momentary, SPST-NO"
-  },
-  {
-    "sku": "POT-10K",
-    "name": "10kΩ Potentiometer",
-    "aliases": ["potentiometer", "pot", "variable resistor", "rheostat", "10k pot"],
-    "category": "Input",
-    "price": 18,
-    "stock": true,
-    "qty_available": 50,
-    "unit": "pcs",
-    "specs": "10kΩ, single-turn, rotary, PCB mount, linear"
-  },
-  {
-    "sku": "DIODE-1N4007",
-    "name": "1N4007 Rectifier Diode (pack of 10)",
-    "aliases": ["1n4007", "diode", "rectifier diode", "flyback diode"],
-    "category": "Passive",
-    "price": 5,
-    "stock": true,
-    "qty_available": 500,
-    "unit": "pcs",
-    "specs": "1000V PIV, 1A, DO-41 package"
-  },
-  {
-    "sku": "SD-CARD-MOD",
-    "name": "Micro SD Card Module",
-    "aliases": ["sd card module", "microsd module", "sd module", "memory module"],
-    "category": "Storage",
-    "price": 55,
-    "stock": true,
-    "qty_available": 20,
-    "unit": "pcs",
-    "specs": "SPI, 3.3-5V, microSD slot, level-shifted"
-  },
-  {
-    "sku": "RTC-DS3231",
-    "name": "DS3231 Real-Time Clock Module",
-    "aliases": ["ds3231", "rtc", "real time clock", "rtc module", "clock module"],
-    "category": "Module",
-    "price": 95,
-    "stock": true,
-    "qty_available": 14,
-    "unit": "pcs",
-    "specs": "I2C, 3.3-5V, ±2ppm accuracy, CR2032 backup battery"
-  },
-  {
-    "sku": "STEPDOWN-LM2596",
-    "name": "LM2596 DC-DC Step Down Module",
-    "aliases": ["lm2596", "buck converter", "step down module", "dc-dc converter", "voltage step down"],
-    "category": "Power",
-    "price": 55,
-    "stock": true,
-    "qty_available": 22,
-    "unit": "pcs",
-    "specs": "4-40V in, 1.25-37V/3A out, adjustable, 92% eff"
-  },
-  {
-    "sku": "STEPUP-MT3608",
-    "name": "MT3608 DC-DC Step Up (Boost) Module",
-    "aliases": ["mt3608", "boost converter", "step up module", "dc boost"],
-    "category": "Power",
-    "price": 45,
-    "stock": true,
-    "qty_available": 18,
-    "unit": "pcs",
-    "specs": "2-24V in, 5-28V out, 2A, adjustable output"
-  },
-  {
-    "sku": "JOYSTICK-PS2",
-    "name": "PS2 Joystick Module",
-    "aliases": ["joystick", "analog joystick", "thumbstick", "joystick module"],
-    "category": "Input",
-    "price": 45,
-    "stock": true,
-    "qty_available": 20,
-    "unit": "pcs",
-    "specs": "5V, dual-axis analog + push button, PS2 style"
-  },
-  {
-    "sku": "7SEG-TM1637",
-    "name": "4-Digit 7-Segment Display (TM1637)",
-    "aliases": ["7 segment", "7segment", "tm1637", "digit display", "7 seg display", "clock display"],
-    "category": "Display",
-    "price": 65,
-    "stock": true,
-    "qty_available": 18,
-    "unit": "pcs",
-    "specs": "TM1637, 4-digit, 2-wire I2C-like, 3.3-5V, 0.56\""
-  },
-  {
     "sku": "MATRIX-MAX7219",
     "name": "8x8 LED Matrix (MAX7219)",
-    "aliases": ["led matrix", "8x8 matrix", "max7219", "dot matrix", "led grid"],
+    "aliases": [
+      "led matrix",
+      "8x8 matrix",
+      "max7219",
+      "dot matrix",
+      "led grid"
+    ],
     "category": "Display",
     "price": 85,
     "stock": true,
@@ -704,9 +492,323 @@
     "specs": "MAX7219, 8x8 LEDs, SPI, 5V, chainable"
   },
   {
+    "sku": "A4988-MOD",
+    "name": "A4988 Stepper Motor Driver",
+    "aliases": [
+      "a4988",
+      "stepper driver",
+      "stepper motor driver"
+    ],
+    "category": "Driver",
+    "price": 95,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "8-35V, up to 2A, microstepping 1/16, dir+step input"
+  },
+  {
+    "sku": "AMS1117-33",
+    "name": "AMS1117-3.3 Voltage Regulator",
+    "aliases": [
+      "ams1117",
+      "3.3v regulator",
+      "ams1117-3.3",
+      "3.3v ldo"
+    ],
+    "category": "Power",
+    "price": 12,
+    "stock": true,
+    "qty_available": 80,
+    "unit": "pcs",
+    "specs": "4.75-12V in, 3.3V/1A out, LDO, SOT-223 package"
+  },
+  {
+    "sku": "BUZZER-5V",
+    "name": "Active Buzzer 5V",
+    "aliases": [
+      "buzzer",
+      "active buzzer",
+      "alarm buzzer",
+      "piezo buzzer"
+    ],
+    "category": "Output",
+    "price": 15,
+    "stock": true,
+    "qty_available": 60,
+    "unit": "pcs",
+    "specs": "5V, 2400Hz, active (oscillator built-in), 12mm"
+  },
+  {
+    "sku": "ARD-MEGA-2560",
+    "name": "Arduino Mega 2560",
+    "aliases": [
+      "arduino mega",
+      "mega 2560",
+      "atmega2560"
+    ],
+    "category": "Microcontroller",
+    "price": 450,
+    "stock": true,
+    "qty_available": 4,
+    "unit": "pcs",
+    "specs": "ATmega2560, 16MHz, 5V, 256KB flash, 54 digital I/O"
+  },
+  {
+    "sku": "ARD-NANO-V3",
+    "name": "Arduino Nano",
+    "aliases": [
+      "arduino nano",
+      "nano v3",
+      "nano v3.0",
+      "atmega328 nano",
+      "nano every"
+    ],
+    "category": "Microcontroller",
+    "price": 185,
+    "stock": true,
+    "qty_available": 25,
+    "unit": "pcs",
+    "specs": "ATmega328P, 16MHz, 5V, 32KB flash, breadboard-friendly"
+  },
+  {
+    "sku": "ARD-PRO-MINI-5V",
+    "name": "Arduino Pro Mini 5V",
+    "aliases": [
+      "pro mini",
+      "arduino pro mini",
+      "pro mini 5v",
+      "atmega328 pro mini"
+    ],
+    "category": "Microcontroller",
+    "price": 145,
+    "stock": true,
+    "qty_available": 18,
+    "unit": "pcs",
+    "specs": "ATmega328P, 16MHz, 5V, 32KB flash, 14 digital I/O, no USB chip"
+  },
+  {
+    "sku": "ARD-UNO-R3",
+    "name": "Arduino Uno R3",
+    "aliases": [
+      "arduino uno",
+      "uno r3",
+      "atmega328 uno"
+    ],
+    "category": "Microcontroller",
+    "price": 250,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "ATmega328P, 16MHz, 5V, 32KB flash, 14 digital I/O"
+  },
+  {
+    "sku": "BC547-NPN",
+    "name": "BC547 NPN Transistor (pack of 10)",
+    "aliases": [
+      "bc547",
+      "bc 547",
+      "npn transistor bc547",
+      "small signal transistor"
+    ],
+    "category": "Transistor",
+    "price": 8,
+    "stock": true,
+    "qty_available": 300,
+    "unit": "pcs",
+    "specs": "NPN, 45V Vce, 100mA Ic, TO-92, small signal switching"
+  },
+  {
+    "sku": "CAP-PACK-ASST",
+    "name": "Capacitor Kit (540 pcs)",
+    "aliases": [
+      "capacitor kit",
+      "capacitor assortment",
+      "mixed caps",
+      "capacitor pack"
+    ],
+    "category": "Passive",
+    "price": 145,
+    "stock": true,
+    "qty_available": 8,
+    "unit": "pcs",
+    "specs": "540pcs ceramic + electrolytic, 10pF-1000\u00b5F"
+  },
+  {
+    "sku": "DC-MOTOR-3V",
+    "name": "DC Motor 3-6V (Hobby)",
+    "aliases": [
+      "dc motor",
+      "hobby motor",
+      "small motor",
+      "electric motor"
+    ],
+    "category": "Actuator",
+    "price": 35,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "3-6V, 150-200 RPM at 3V, 130 size"
+  },
+  {
+    "sku": "DHT11-MOD",
+    "name": "DHT11 Temperature & Humidity Sensor",
+    "aliases": [
+      "dht11",
+      "dht 11",
+      "temperature sensor",
+      "humidity sensor",
+      "temp sensor"
+    ],
+    "category": "Sensor",
+    "price": 45,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "3.3-5V, \u00b12\u00b0C accuracy, \u00b15% RH, digital output"
+  },
+  {
+    "sku": "DHT22-MOD",
+    "name": "DHT22 Temperature & Humidity Sensor",
+    "aliases": [
+      "dht22",
+      "dht 22",
+      "am2302",
+      "high accuracy temperature sensor"
+    ],
+    "category": "Sensor",
+    "price": 95,
+    "stock": true,
+    "qty_available": 20,
+    "unit": "pcs",
+    "specs": "3.3-5V, \u00b10.5\u00b0C accuracy, \u00b12% RH, digital output"
+  },
+  {
+    "sku": "DS18B20-WP",
+    "name": "DS18B20 Waterproof Temperature Sensor",
+    "aliases": [
+      "ds18b20",
+      "one wire sensor",
+      "waterproof temp sensor",
+      "ds18"
+    ],
+    "category": "Sensor",
+    "price": 75,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "3.0-5.5V, \u00b10.5\u00b0C, 1-Wire protocol, -55 to +125\u00b0C"
+  },
+  {
+    "sku": "RTC-DS3231",
+    "name": "DS3231 Real-Time Clock Module",
+    "aliases": [
+      "ds3231",
+      "rtc",
+      "real time clock",
+      "rtc module",
+      "clock module"
+    ],
+    "category": "Module",
+    "price": 95,
+    "stock": true,
+    "qty_available": 14,
+    "unit": "pcs",
+    "specs": "I2C, 3.3-5V, \u00b12ppm accuracy, CR2032 backup battery"
+  },
+  {
+    "sku": "ESP32-DEVKIT-V1",
+    "name": "ESP32 Dev Board",
+    "aliases": [
+      "esp32",
+      "esp-32",
+      "esp32 devkit",
+      "esp-wroom-32",
+      "esp32 development board"
+    ],
+    "category": "Microcontroller",
+    "price": 195,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "Dual-core 240MHz, Wi-Fi + BT, 4MB flash, 3.3V"
+  },
+  {
+    "sku": "ESP8266-NODEMCU",
+    "name": "ESP8266 NodeMCU",
+    "aliases": [
+      "esp8266",
+      "nodemcu",
+      "esp-12e",
+      "wemos d1 mini",
+      "nodemcu v2",
+      "nodemcu v3"
+    ],
+    "category": "Microcontroller",
+    "price": 120,
+    "stock": true,
+    "qty_available": 35,
+    "unit": "pcs",
+    "specs": "80/160MHz, Wi-Fi, 4MB flash, 3.3V, 11 digital I/O"
+  },
+  {
+    "sku": "FLAME-SENSOR",
+    "name": "Flame / Fire Detection Sensor",
+    "aliases": [
+      "flame sensor",
+      "fire sensor",
+      "infrared flame detector"
+    ],
+    "category": "Sensor",
+    "price": 35,
+    "stock": true,
+    "qty_available": 25,
+    "unit": "pcs",
+    "specs": "3.3-5V, 760nm-1100nm infrared, analog + digital, 60cm range"
+  },
+  {
+    "sku": "HC-06-BT",
+    "name": "HC-06 Bluetooth Module",
+    "aliases": [
+      "hc06",
+      "hc-06",
+      "bluetooth module",
+      "bt module",
+      "bluetooth serial"
+    ],
+    "category": "Communication",
+    "price": 145,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "Bluetooth 2.0, slave mode only, UART, 3.3V-5V, 10m"
+  },
+  {
+    "sku": "HC-SR04",
+    "name": "HC-SR04 Ultrasonic Distance Sensor",
+    "aliases": [
+      "hcsr04",
+      "ultrasonic sensor",
+      "distance sensor",
+      "sonar sensor",
+      "hc sr04"
+    ],
+    "category": "Sensor",
+    "price": 55,
+    "stock": true,
+    "qty_available": 45,
+    "unit": "pcs",
+    "specs": "5V, 2cm-400cm range, \u00b13mm accuracy, 40kHz"
+  },
+  {
     "sku": "IR-RECV-MOD",
     "name": "IR Receiver Module (TSOP1738)",
-    "aliases": ["ir receiver", "infrared receiver", "tsop1738", "ir sensor", "remote receiver"],
+    "aliases": [
+      "ir receiver",
+      "infrared receiver",
+      "tsop1738",
+      "ir sensor",
+      "remote receiver"
+    ],
     "category": "Communication",
     "price": 25,
     "stock": true,
@@ -715,25 +817,612 @@
     "specs": "38kHz carrier, 2.5-5.5V, 3-pin (Vcc/GND/OUT)"
   },
   {
-    "sku": "CRYSTAL-16MHZ",
-    "name": "16MHz Crystal Oscillator",
-    "aliases": ["crystal", "crystal oscillator", "16mhz crystal", "quartz crystal"],
-    "category": "Passive",
-    "price": 8,
+    "sku": "IRF540N-TO220",
+    "name": "IRF540N N-Channel MOSFET",
+    "aliases": [
+      "irf540n",
+      "irf540",
+      "n-channel mosfet",
+      "power mosfet",
+      "mosfet"
+    ],
+    "category": "Transistor",
+    "price": 28,
+    "stock": true,
+    "qty_available": 45,
+    "unit": "pcs",
+    "specs": "N-Ch, 100V, 33A, 44m\u03a9 Rds, TO-220"
+  },
+  {
+    "sku": "JW-FF-20",
+    "name": "Jumper Wires F-F 20pcs (20cm)",
+    "aliases": [
+      "female to female jumper",
+      "ff jumper"
+    ],
+    "category": "Prototyping",
+    "price": 35,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "20 pcs, female-to-female, 20cm, 28AWG"
+  },
+  {
+    "sku": "JW-MF-20",
+    "name": "Jumper Wires M-F 20pcs (20cm)",
+    "aliases": [
+      "male to female jumper",
+      "mf jumper",
+      "dupont mf"
+    ],
+    "category": "Prototyping",
+    "price": 35,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "20 pcs, male-to-female, 20cm, 28AWG"
+  },
+  {
+    "sku": "JW-MM-20",
+    "name": "Jumper Wires M-M 20pcs (20cm)",
+    "aliases": [
+      "jumper wires",
+      "dupont wire",
+      "male to male jumper",
+      "jumper cables",
+      "wire set",
+      "jumper wire set"
+    ],
+    "category": "Prototyping",
+    "price": 35,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "20 pcs, male-to-male, 20cm, 28AWG, 40 colors"
+  },
+  {
+    "sku": "L293D-IC",
+    "name": "L293D Motor Driver IC",
+    "aliases": [
+      "l293d",
+      "l293",
+      "motor driver ic",
+      "h-bridge ic"
+    ],
+    "category": "Driver",
+    "price": 35,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "4.5-36V, 600mA per channel, quad half-H-bridge, DIP-16"
+  },
+  {
+    "sku": "L298N-MOD",
+    "name": "L298N Motor Driver Module",
+    "aliases": [
+      "l298n",
+      "motor driver",
+      "dual h-bridge",
+      "dc motor driver",
+      "l298"
+    ],
+    "category": "Driver",
+    "price": 85,
+    "stock": true,
+    "qty_available": 18,
+    "unit": "pcs",
+    "specs": "5-35V, 2A per channel, dual DC or 1 stepper motor"
+  },
+  {
+    "sku": "LDR-MOD",
+    "name": "LDR Light Sensor Module",
+    "aliases": [
+      "ldr",
+      "light sensor",
+      "photoresistor",
+      "light dependent resistor",
+      "ldr module"
+    ],
+    "category": "Sensor",
+    "price": 25,
+    "stock": true,
+    "qty_available": 60,
+    "unit": "pcs",
+    "specs": "3.3-5V, analog + digital output, adjustable sensitivity"
+  },
+  {
+    "sku": "STEPDOWN-LM2596",
+    "name": "LM2596 DC-DC Step Down Module",
+    "aliases": [
+      "lm2596",
+      "buck converter",
+      "step down module",
+      "dc-dc converter",
+      "voltage step down"
+    ],
+    "category": "Power",
+    "price": 55,
+    "stock": true,
+    "qty_available": 22,
+    "unit": "pcs",
+    "specs": "4-40V in, 1.25-37V/3A out, adjustable, 92% eff"
+  },
+  {
+    "sku": "LM317-TO220",
+    "name": "LM317 Adjustable Voltage Regulator",
+    "aliases": [
+      "lm317",
+      "317",
+      "adjustable regulator",
+      "variable regulator"
+    ],
+    "category": "Power",
+    "price": 22,
+    "stock": true,
+    "qty_available": 50,
+    "unit": "pcs",
+    "specs": "3-40V in, 1.25-37V/1.5A out adjustable, TO-220"
+  },
+  {
+    "sku": "LM7805-TO220",
+    "name": "LM7805 5V Voltage Regulator",
+    "aliases": [
+      "lm7805",
+      "7805",
+      "5v regulator",
+      "voltage regulator 5v",
+      "78l05"
+    ],
+    "category": "Power",
+    "price": 18,
     "stock": true,
     "qty_available": 80,
     "unit": "pcs",
-    "specs": "16MHz, HC-49S package, 20ppm, 2-pin"
+    "specs": "7-35V in, 5V/1A out, TO-220 package"
   },
   {
-    "sku": "HEADER-MALE-40",
-    "name": "40-Pin Male Header (2.54mm)",
-    "aliases": ["pin header", "male header", "dupont header", "2.54mm header"],
-    "category": "Connector",
+    "sku": "MFRC522-RFID",
+    "name": "MFRC522 RFID Module + Card",
+    "aliases": [
+      "rfid",
+      "mfrc522",
+      "rfid reader",
+      "rc522",
+      "nfc module"
+    ],
+    "category": "Communication",
+    "price": 95,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "13.56MHz, SPI, 3.3V, includes card + key fob, read/write up to 5cm"
+  },
+  {
+    "sku": "MPU6050-MOD",
+    "name": "MPU-6050 IMU Module",
+    "aliases": [
+      "mpu6050",
+      "mpu 6050",
+      "gyroscope",
+      "accelerometer",
+      "gyro sensor",
+      "imu"
+    ],
+    "category": "Sensor",
+    "price": 85,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "3.3-5V, 3-axis gyro + 3-axis accelerometer, I2C"
+  },
+  {
+    "sku": "MQ2-GAS",
+    "name": "MQ-2 Gas Sensor",
+    "aliases": [
+      "mq2",
+      "mq-2",
+      "gas sensor",
+      "smoke sensor",
+      "lpg sensor"
+    ],
+    "category": "Sensor",
+    "price": 75,
+    "stock": true,
+    "qty_available": 18,
+    "unit": "pcs",
+    "specs": "5V, LPG/smoke/hydrogen/alcohol, analog + digital out"
+  },
+  {
+    "sku": "STEPUP-MT3608",
+    "name": "MT3608 DC-DC Step Up (Boost) Module",
+    "aliases": [
+      "mt3608",
+      "boost converter",
+      "step up module",
+      "dc boost"
+    ],
+    "category": "Power",
+    "price": 45,
+    "stock": true,
+    "qty_available": 18,
+    "unit": "pcs",
+    "specs": "2-24V in, 5-28V out, 2A, adjustable output"
+  },
+  {
+    "sku": "SD-CARD-MOD",
+    "name": "Micro SD Card Module",
+    "aliases": [
+      "sd card module",
+      "microsd module",
+      "sd module",
+      "memory module"
+    ],
+    "category": "Storage",
+    "price": 55,
+    "stock": true,
+    "qty_available": 20,
+    "unit": "pcs",
+    "specs": "SPI, 3.3-5V, microSD slot, level-shifted"
+  },
+  {
+    "sku": "BB-MINI-170",
+    "name": "Mini Breadboard (170 tie-points)",
+    "aliases": [
+      "mini breadboard",
+      "small breadboard",
+      "half breadboard",
+      "170 breadboard"
+    ],
+    "category": "Prototyping",
+    "price": 55,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "170 tie-points, adhesive backing, mini size"
+  },
+  {
+    "sku": "NE555-DIP",
+    "name": "NE555 Timer IC",
+    "aliases": [
+      "ne555",
+      "555 timer",
+      "555",
+      "timer ic",
+      "555p"
+    ],
+    "category": "IC",
     "price": 12,
     "stock": true,
     "qty_available": 100,
     "unit": "pcs",
-    "specs": "40 pins, 2.54mm pitch, single row, 11mm total height"
+    "specs": "4.5-15V, DIP-8, astable/monostable/bistable modes"
+  },
+  {
+    "sku": "NRF24-MOD",
+    "name": "NRF24L01+ 2.4GHz RF Module",
+    "aliases": [
+      "nrf24l01",
+      "nrf24",
+      "2.4ghz module",
+      "wireless module",
+      "rf module"
+    ],
+    "category": "Communication",
+    "price": 85,
+    "stock": false,
+    "qty_available": 0,
+    "unit": "pcs",
+    "specs": "2.4GHz, SPI, 3.3V, 250kbps-2Mbps, 100m range"
+  },
+  {
+    "sku": "NEOPIXEL-8",
+    "name": "NeoPixel LED Strip (8 LEDs)",
+    "aliases": [
+      "neopixel",
+      "ws2812b",
+      "rgb led strip",
+      "addressable led",
+      "ws2812"
+    ],
+    "category": "Display",
+    "price": 95,
+    "stock": true,
+    "qty_available": 25,
+    "unit": "pcs",
+    "specs": "WS2812B, 8 RGB LEDs, 5V, individually addressable"
+  },
+  {
+    "sku": "PCA9685-PWM",
+    "name": "PCA9685 16-Channel PWM/Servo Driver",
+    "aliases": [
+      "pca9685",
+      "servo controller",
+      "pwm driver",
+      "16 channel servo"
+    ],
+    "category": "Module",
+    "price": 120,
+    "stock": true,
+    "qty_available": 8,
+    "unit": "pcs",
+    "specs": "I2C, 16 channels, 12-bit resolution, 3.3-5V, stackable"
+  },
+  {
+    "sku": "PIR-HC-SR501",
+    "name": "PIR Motion Sensor HC-SR501",
+    "aliases": [
+      "pir sensor",
+      "motion sensor",
+      "hc-sr501",
+      "passive infrared",
+      "pir module"
+    ],
+    "category": "Sensor",
+    "price": 65,
+    "stock": true,
+    "qty_available": 28,
+    "unit": "pcs",
+    "specs": "5-12V, adjustable sensitivity & delay, 120\u00b0 angle"
+  },
+  {
+    "sku": "JOYSTICK-PS2",
+    "name": "PS2 Joystick Module",
+    "aliases": [
+      "joystick",
+      "analog joystick",
+      "thumbstick",
+      "joystick module"
+    ],
+    "category": "Input",
+    "price": 45,
+    "stock": true,
+    "qty_available": 20,
+    "unit": "pcs",
+    "specs": "5V, dual-axis analog + push button, PS2 style"
+  },
+  {
+    "sku": "PUSH-BTN-6MM",
+    "name": "Push Button 6mm (pack of 10)",
+    "aliases": [
+      "push button",
+      "tactile button",
+      "tact switch",
+      "momentary button",
+      "pushbutton"
+    ],
+    "category": "Input",
+    "price": 10,
+    "stock": true,
+    "qty_available": 200,
+    "unit": "pcs",
+    "specs": "6x6mm, 4-pin, 12V/50mA, momentary, SPST-NO"
+  },
+  {
+    "sku": "RAIN-SENSOR",
+    "name": "Rain / Water Detection Sensor",
+    "aliases": [
+      "rain sensor",
+      "water sensor",
+      "rain detector",
+      "moisture rain"
+    ],
+    "category": "Sensor",
+    "price": 35,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "3.3-5V, analog + digital output, adjustable sensitivity, PCB 5.4cm"
+  },
+  {
+    "sku": "RPi-PICO",
+    "name": "Raspberry Pi Pico",
+    "aliases": [
+      "pico",
+      "rp2040",
+      "raspberry pi pico",
+      "pi pico"
+    ],
+    "category": "Microcontroller",
+    "price": 220,
+    "stock": true,
+    "qty_available": 15,
+    "unit": "pcs",
+    "specs": "RP2040, dual-core 133MHz, 3.3V, 26 GPIO, 2MB flash"
+  },
+  {
+    "sku": "RES-PACK-ASST",
+    "name": "Resistor Pack (600 pcs, 30 values)",
+    "aliases": [
+      "resistor kit",
+      "resistor assortment",
+      "mixed resistors",
+      "resistor set",
+      "resistor pack"
+    ],
+    "category": "Passive",
+    "price": 120,
+    "stock": true,
+    "qty_available": 10,
+    "unit": "pcs",
+    "specs": "600pcs, 10\u03a9 to 1M\u03a9, 30 values, 1/4W, 5% carbon film"
+  },
+  {
+    "sku": "SG90-SERVO",
+    "name": "SG90 Micro Servo",
+    "aliases": [
+      "sg90",
+      "servo motor",
+      "micro servo",
+      "servo",
+      "9g servo"
+    ],
+    "category": "Actuator",
+    "price": 75,
+    "stock": true,
+    "qty_available": 25,
+    "unit": "pcs",
+    "specs": "4.8-6V, 1.8kg\u00b7cm torque, 180\u00b0, 9g weight"
+  },
+  {
+    "sku": "SPDT-SLIDE-SW",
+    "name": "SPDT Slide Switch (pack of 5)",
+    "aliases": [
+      "slide switch",
+      "spdt switch",
+      "toggle switch small",
+      "mini slide switch"
+    ],
+    "category": "Input",
+    "price": 12,
+    "stock": true,
+    "qty_available": 100,
+    "unit": "pcs",
+    "specs": "SPDT, 0.3A/30VDC, PCB mount, 7.5mm travel"
+  },
+  {
+    "sku": "STM32-BLUEPILL",
+    "name": "STM32F103C8T6 Blue Pill",
+    "aliases": [
+      "stm32",
+      "blue pill",
+      "stm32f103",
+      "arm cortex board"
+    ],
+    "category": "Microcontroller",
+    "price": 175,
+    "stock": true,
+    "qty_available": 12,
+    "unit": "pcs",
+    "specs": "ARM Cortex-M3, 72MHz, 3.3V, 64KB flash, 20KB SRAM"
+  },
+  {
+    "sku": "SW-520D-VIBRATE",
+    "name": "SW-520D Vibration Sensor (pack of 3)",
+    "aliases": [
+      "vibration sensor",
+      "sw-520d",
+      "tilt switch",
+      "vibration switch"
+    ],
+    "category": "Sensor",
+    "price": 25,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "SW-520D, tilt+vibration, 12V/0.01A, ball-roll contact"
+  },
+  {
+    "sku": "SEEED-XIAO",
+    "name": "Seeeduino XIAO (SAMD21)",
+    "aliases": [
+      "xiao",
+      "seeeduino xiao",
+      "samd21 xiao",
+      "tiny arduino"
+    ],
+    "category": "Microcontroller",
+    "price": 220,
+    "stock": true,
+    "qty_available": 10,
+    "unit": "pcs",
+    "specs": "SAMD21, 48MHz, 3.3V, 256KB flash, thumb-sized, USB-C"
+  },
+  {
+    "sku": "SOIL-MOD",
+    "name": "Soil Moisture Sensor",
+    "aliases": [
+      "soil sensor",
+      "moisture sensor",
+      "soil moisture",
+      "plant sensor"
+    ],
+    "category": "Sensor",
+    "price": 35,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "3.3-5V, analog + digital output, adjustable threshold"
+  },
+  {
+    "sku": "TP4056-MOD",
+    "name": "TP4056 Li-Ion Battery Charger Module",
+    "aliases": [
+      "tp4056",
+      "battery charger",
+      "lipo charger",
+      "lithium charger",
+      "18650 charger"
+    ],
+    "category": "Power",
+    "price": 35,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "Micro-USB, 4.2V 1A, CC/CV, overvoltage protection"
+  },
+  {
+    "sku": "TTP223-TOUCH",
+    "name": "TTP223 Capacitive Touch Sensor",
+    "aliases": [
+      "touch sensor",
+      "capacitive touch",
+      "ttp223",
+      "touch button"
+    ],
+    "category": "Input",
+    "price": 15,
+    "stock": true,
+    "qty_available": 60,
+    "unit": "pcs",
+    "specs": "2-5.5V, capacitive touch, 60\u00b5A standby, TTL output"
+  },
+  {
+    "sku": "USB-MICRO-50",
+    "name": "USB-A to Micro-B Cable (50cm)",
+    "aliases": [
+      "micro usb cable",
+      "micro-b cable",
+      "micro usb",
+      "android cable"
+    ],
+    "category": "Cable",
+    "price": 65,
+    "stock": true,
+    "qty_available": 30,
+    "unit": "pcs",
+    "specs": "USB 2.0, Type-A to Micro-B, 50cm, data + charge"
+  },
+  {
+    "sku": "USB-MINI-B30",
+    "name": "USB-A to Mini-B Cable (30cm)",
+    "aliases": [
+      "usb mini b",
+      "usb mini cable",
+      "arduino cable",
+      "mini usb cable",
+      "mini-b cable"
+    ],
+    "category": "Cable",
+    "price": 65,
+    "stock": true,
+    "qty_available": 25,
+    "unit": "pcs",
+    "specs": "USB 2.0, Type-A to Mini-B, 30cm, data + charge"
+  },
+  {
+    "sku": "USB-C-50",
+    "name": "USB-A to USB-C Cable (50cm)",
+    "aliases": [
+      "usb c cable",
+      "usb type c",
+      "usb-c cable",
+      "type c charging"
+    ],
+    "category": "Cable",
+    "price": 75,
+    "stock": true,
+    "qty_available": 40,
+    "unit": "pcs",
+    "specs": "USB 2.0, Type-A to Type-C, 50cm, data + 3A charge"
   }
 ]

@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import type { ExtractionResult } from '@/types'
+import NavBar from '@/components/NavBar'
 
 type StepStatus = 'pending' | 'running' | 'done'
 
@@ -122,23 +123,7 @@ export default function LoadingScreen({ url, onComplete, onError }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: '#B54030' }}>
-      {/* Nav */}
-      <nav className="flex items-center justify-between px-8 py-4">
-        <div
-          className="w-10 h-10 rounded-lg flex items-center justify-center font-black text-white text-sm"
-          style={{ background: 'rgba(0,0,0,0.25)' }}
-        >
-          3CS
-        </div>
-        <div
-          className="flex items-center gap-6 px-8 py-2 rounded-full text-sm font-medium"
-          style={{ background: 'rgba(220,240,255,0.55)', backdropFilter: 'blur(12px)' }}
-        >
-          {['Home', 'About', 'Catalog', 'Contact'].map(l => (
-            <span key={l} className="cursor-pointer text-white hover:opacity-70">{l}</span>
-          ))}
-        </div>
-      </nav>
+      <NavBar />
 
       {/* Body */}
       <div className="flex-1 flex gap-6 px-6 pb-6" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
