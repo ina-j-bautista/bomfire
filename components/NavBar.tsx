@@ -11,7 +11,7 @@ export default function NavBar() {
           title="Home"
         >
           <img
-            src="/images/3cs-logo.png"
+            src="/images/logo.png"
             alt="3CS"
             style={{ width: '100%', height: '100%', objectFit: 'contain' }}
           />

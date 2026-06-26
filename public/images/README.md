@@ -7,7 +7,7 @@ served at `https://yoursite.com/images/filename.ext`.
 
 | File                        | Used In                  | Description                                |
 |-----------------------------|--------------------------|-------------------------------------------|
-| `3cs-logo.png`              | NavBar (all pages)       | Your 3CS group logo — replaces "3CS" text  |
+| `logo.png`              | NavBar (all pages)       | Your 3CS group logo — replaces "3CS" text  |
 | `bomfire-logo.png`          | Landing page, About page | BOMFIRE product logo                       |
 | `fire-decal.png`            | Landing page (right side)| Decorative fire illustration               |
 

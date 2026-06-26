@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="rounded-2xl p-6 mb-6" style={{ background: '#F8EDE8' }}>
           <div className="flex items-center gap-3 mb-6">
             <div style={{ width: 48, height: 48, borderRadius: 10, overflow: 'hidden', background: 'rgba(0,0,0,0.08)', flexShrink: 0 }}>
-              <img src="/images/3cs-logo.png" alt="3CS"
+              <img src="/images/logo.png" alt="3CS"
                    style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <div>
@@ -134,12 +134,11 @@ export default function AboutPage() {
           <div className="flex items-start gap-4 p-4 rounded-xl mb-4" style={{ background: '#EDD8CC' }}>
             <div style={{ fontSize: 36 }}>⚡</div>
             <div>
-              <div className="font-black text-gray-900 text-base">Ideas Can Go Critical (ICGC)</div>
-              <div className="text-sm text-gray-600 mt-1">C/C Elimination Round — Hackathon</div>
+              <div className="font-black text-gray-900 text-base">3CS</div>
+              <div className="text-sm text-gray-600 mt-1">Create and Conquer 2026</div>
               <div className="text-xs text-gray-500 mt-2">
                 Theme 1: Eliminating Friction in the Maker's Bill of Materials Journey<br />
-                <em>"How might we seamlessly and automatically translate maker inspiration into a fully resolved,
-                ready-to-checkout cart of in-stock components?"</em>
+                <em>"How might we seamlessly and automatically translate maker inspiration, such as tutorials, parts lists, or schematic photos, into a fully resolved, ready-to-checkout cart of in-stock components to eliminate the friction that causes project abandonment?"</em>
               </div>
             </div>
           </div>
